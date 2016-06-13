@@ -30,6 +30,11 @@ public class GameTest {
         assertThat(actual, is(false));
     }
 
+    @Test
+    public void productionConstructor_forCoverage() throws Exception {
+        new Game();
+    }
+
     private Host mockHost(boolean win) {
         Host host = mock(Host.class);
         when(host.pickSecond(any())).thenReturn(win);

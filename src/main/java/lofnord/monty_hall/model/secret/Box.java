@@ -3,7 +3,7 @@ package lofnord.monty_hall.model.secret;
 import lofnord.monty_hall.model.Choice;
 
 /**
- * Holds the state of the box.
+ * Holds the state of a box.
  */
 class Box {
     private final Choice choice;
@@ -19,12 +19,11 @@ class Box {
      * Opens the box and reveals the content
      *
      * @return true if the box has the prize;
-     *          false otherwise
-     *
+     * false otherwise
      * @throws IllegalStateException if the box is already opened
      */
     boolean open() {
-        if(this.open) {
+        if (this.open) {
             throw new IllegalStateException("Box is already open");
         }
         this.open = true;

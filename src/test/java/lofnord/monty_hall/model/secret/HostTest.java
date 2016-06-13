@@ -80,4 +80,9 @@ public class HostTest {
 
         assertThat(actual, is(true));
     }
+
+    @Test
+    public void productionConstructor_forCoverage() throws Exception {
+        new Host();
+    }
 }

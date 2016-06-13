@@ -35,9 +35,8 @@ public class Game {
             case SWITCH:
                 return host.pickSecond(switchTo);
             case KEEP:
-                return host.pickSecond(first);
             default:
-                throw new IllegalArgumentException("unknown strategy");
+                return host.pickSecond(first);
         }
     }
 }

@@ -36,4 +36,15 @@ public class BoxTest {
         //SUT
         box.open();
     }
+
+    @Test
+    public void getChoice_forCoverage() throws Exception {
+        Choice expected = Choice.NUMBER_3;
+        Box box = new Box(expected, false);
+
+        //SUT
+        Choice actual = box.getChoice();
+
+        assertThat(actual, is(expected));
+    }
 }
