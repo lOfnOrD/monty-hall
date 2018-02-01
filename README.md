@@ -6,5 +6,6 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/lofnord/monty-hall/badge.svg?targetFile=pom.xml)](https://snyk.io/test/github/lofnord/monty-hall?targetFile=pom.xml)
 [![CircleCI](https://circleci.com/gh/lOfnOrD/monty-hall.svg?style=svg)](https://circleci.com/gh/lOfnOrD/monty-hall)
 [![Run Status](https://api.shippable.com/projects/5a7361d9a6e8350700dad643/badge?branch=master)](https://app.shippable.com/github/lOfnOrD/monty-hall)
+[ ![Codeship Status for lOfnOrD/monty-hall](https://app.codeship.com/projects/9cbd8e60-e9bc-0135-2465-46b2e6c03079/status?branch=master)](https://app.codeship.com/projects/269964)
 
 Run the Monty Hall problem ( https://en.wikipedia.org/wiki/Monty_Hall_problem ) and get the stats
